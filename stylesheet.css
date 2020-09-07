@@ -1,0 +1,365 @@
+
+
+header, main, .topics, body, footer {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: cornflowerblue;
+    height: 80px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.logo {
+    float: left;
+    font-family: sans-serif;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+/* nav-area */
+nav {
+    text-align: center;
+    float: right;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+nav a:active {
+    border-bottom: white;
+    border: 1px solid;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+.dd-button {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dd-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    padding: 5px 5px;
+}
+
+.dd-content a {
+    color: white;
+    padding: 5px;
+    display: block;
+}
+
+.dd-button:hover .dd-content {
+    background-color: cornflowerblue;
+    display: block;
+}
+
+/* nav-area-end */
+
+/* nav-in-the-platform-page */
+.nav2 {
+    /* height: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.nav2 a {
+    color: cornflowerblue;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+}
+/* end-of-the-nav2 */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.story {
+    height: 400px;
+    background-image: url(images/photo-1499088513455-78ed88b7a5b4.jfif);
+    color: white;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.story h1 {
+    font-size: 50px;
+}
+
+.overview2 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.overview {
+    font-family: sans-serif;
+    font-size: 14px;
+    opacity: 70%;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 30%; */
+    margin-bottom: 5px;
+}
+
+.topic1 {
+    width: 32.5%;
+    height: 300px;
+    background-image: url(images/photo-1484506097116-1bcba4fa7568.jfif);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.topic2 {
+    width: 32.5%;
+    min-height: 200px;
+    background-image: url(images/photo-1483232539664-d89822fb5d3e.jfif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topic3 {
+    width: 32.5%;
+    min-height: 200px;
+    background-image: url(images/desert-1.jpg);
+    box-shadow: aquamarine;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.topic4 {
+    width: 32.5%;
+    min-height: 200px;
+    background-image: url(images/grand-canyon-1.jpg);
+    box-shadow: aquamarine;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.topic5 {
+    width: 32.5%;
+    min-height: 200px;
+    background-image: url(images/nature-hd-wallpapers-1.jpg);
+    box-shadow: aquamarine;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.topic6 {
+    width: 32.5%;
+    min-height: 200px;
+    background-image: url(images/20443-full-hd-wallpapers-for-laptop_26357.jpg);
+    box-shadow: aquamarine;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.topic1, .topic2, .topic3, .topic4, .topic5, .topic6 {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.topic1 h2, p {
+    color: white;
+}
+
+.topic2 h2, p {
+    color: white;
+}
+
+.topic3 h2, p {
+    color: white;
+}
+
+footer {
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+.foottop {
+    padding-left: 80px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.firstline {
+    display: block;
+    width: 650px;
+     border-width: 0.5px;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: solid;
+}
+
+.footerlink {
+    /* height: 60px; */
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    display: flex;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.secondline {
+    display: block;
+    width: 650px;
+     border-width: 1px;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: solid;
+}
+
+.copyright {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+article {
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(100, 148, 237, 0.727);
+    /* background-image: url(images/pages-3554116_1280.jpg); */
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+article h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+article p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-justify: distribute-all-lines; */
+    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    white-space: normal;  
+}
+
+article p, h1, ul {
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* contact me page */
+.contactme {
+    padding-top: 30px;
+    color: white;
+    /* font-weight: bold; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+table {
+    padding: 30px 20px;
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 50px;
+}
+
+/* article page */
+
+.major-article1 {
+    background-image: url(images/hd-wallpapers-for-laptop-6.jpg);
+    color: white;
+    padding: 20px;
+}
+
+.major-article1 h1 {
+    font-size: 80px;
+
+}
+
+.major-article2 p {
+    color: black;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.comment {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    width: 200px;
+    padding: 5px;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    line-height: 10px;
+}
+
+input[type=submit] {
+    background-color: cornflowerblue;
+    width: 150px;
+    color: white;
+    padding: 5px;
+    border: 0px;
+}
